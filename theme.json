@@ -1,0 +1,25 @@
+{
+    "id": "middle-click-tab-animation",
+    "name": "Tab Open Animations",
+    "description": "Animations spectaculaires à l'ouverture d'un onglet (Explosion, Aimant, Vol depuis la droite).",
+    "scripts": {
+        "tab_open_animation.uc.js": {
+            "include": [
+                "chrome://browser/content/browser.xhtml"
+            ]
+        }
+    },
+    "author": "Based on bubble-pop-deleting by Zylaah",
+    "version": "3.0",
+    "tags": [
+        "sine",
+        "Tab animation",
+        "New tab",
+        "fx-autoconfig",
+        "JavaScript"
+    ],
+    "preferences": "preferences.json",
+    "createdAt": "2026-10-03",
+    "updatedAt": "2026-10-03",
+    "fork": ["zen"]
+}

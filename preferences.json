@@ -1,0 +1,31 @@
+[
+  {
+    "property": "extension.middle-click-tab-animation.animation-style",
+    "label": "Animation Style",
+    "type": "dropdown",
+    "defaultValue": "explosion",
+    "description": "Animation jouée à l'ouverture d'un nouvel onglet.",
+    "options": [
+      { "label": "Explosion", "value": "explosion" },
+      { "label": "Aimant", "value": "aimant" },
+      { "label": "Vol depuis la droite", "value": "vol" },
+      { "label": "Aléatoire", "value": "random" }
+    ]
+  },
+  {
+    "property": "extension.middle-click-tab-animation.speed",
+    "label": "Speed (%)",
+    "type": "string",
+    "value": "number",
+    "placeholder": "100",
+    "defaultValue": 100,
+    "description": "Vitesse de l'animation en pourcentage (100 = normal, 50 = deux fois plus lent, 200 = deux fois plus rapide)."
+  },
+  {
+    "property": "extension.middle-click-tab-animation.debug",
+    "label": "Debug (console)",
+    "type": "checkbox",
+    "defaultValue": false,
+    "description": "Affiche des logs dans la Console du navigateur (Ctrl+Shift+J)."
+  }
+]
